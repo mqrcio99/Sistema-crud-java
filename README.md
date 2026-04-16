@@ -1,22 +1,35 @@
-# Sistema de Gestão Acadêmica (CRUD)
+# Sistema de Gestão de Games (CRUD)
 
 ## 📌 Sobre o Projeto
-Este projeto é uma aplicação Java desenvolvida para gerenciar o fluxo de alunos, aplicando conceitos fundamentais de **CRUD** (Create, Read, Update, Delete) e persistência de dados em SQL.
+Este projeto consiste em um sistema para gerenciamento de uma biblioteca de jogos, desenvolvido como parte dos estudos de **Desenvolvimento de Sistemas no SENAC/RS**. A aplicação utiliza o padrão de arquitetura **MVC** e operações de **CRUD** com persistência em banco de dados SQL.
 
-## 🚀 Funcionalidades
-O sistema permite as seguintes operações:
-- **C**reate: Cadastrar novos alunos e cursos.
-- **R**ead: Listar e buscar registros existentes no banco de dados.
-- **U**pdate: Atualizar informações de contato ou matrícula.
-- **D**elete: Remover registros de alunos do sistema.
+## 🧱 Arquitetura e Protótipo
+O projeto segue o padrão MVC (Model-View-Controller), garantindo a separação de responsabilidades entre a interface, a lógica de negócio e o acesso aos dados.
 
-## 🛠️ Tecnologias Utilizadas
+### 📊 Diagrama de Fluxo (Protótipo)
+![Diagrama MVC](./Screenshot_20260416-175353.Google~2.png)
+
+---
+
+## 🚀 Funcionalidades (CRUD)
+- **Create:** Cadastro de novos jogos (Título, Gênero, Plataforma, Preço).
+- **Read:** Listagem de todos os jogos salvos ou busca por ID.
+- **Update:** Edição de informações de jogos já cadastrados.
+- **Delete:** Remoção de títulos da biblioteca.
+
+## 📂 Estrutura de Pastas
+- `src/model/`: Representação das entidades (Game, Person).
+- `src/dao/`: Comunicação direta com o banco de dados (Data Access Object).
+- `src/controller/`: Regras de negócio e controle de fluxo.
+- `src/view/`: Interface de interação via Console (Scanner).
+- `src/config/`: Configurações de conexão com o banco.
+
+## 🛠️ Tecnologias
 - **Linguagem:** Java
-- **Banco de Dados:** SQL
-- **Ferramentas:** Git e GitHub
+- **Banco de Dados:** MySQL
+- **Arquitetura:** MVC
 
-## 📋 Como Executar
-1. Clone o repositório.
-2. Configure o banco de dados usando o script SQL disponível na pasta `/sql`.
-3. Execute a classe principal no seu ambiente de desenvolvimento.
-4. 
+---
+
+## 👨‍💻 Autor
+**Márcio** Estudante de Desenvolvimento de Sistemas - SENAC/RS 🚀
