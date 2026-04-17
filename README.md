@@ -3,13 +3,15 @@
 ## 📌 Sobre o Projeto
 Este projeto consiste em um sistema para gerenciamento de uma biblioteca de jogos, desenvolvido como parte dos estudos de **Desenvolvimento de Sistemas no SENAC/RS**. A aplicação utiliza o padrão de arquitetura **MVC** e operações de **CRUD** com persistência em banco de dados SQL.
 
-## 🧱 Arquitetura e Protótipo
-O projeto segue o padrão MVC (Model-View-Controller), garantindo a separação de responsabilidades entre a interface, a lógica de negócio e o acesso aos dados.
+## 🖼️ Protótipo do Sistema
+Abaixo está o protótipo de interface desenvolvido no **draw.io**, representando a experiência do usuário ao interagir com o sistema de games.
 
-### 📊 Diagrama de Fluxo (Protótipo)
-![Diagrama MVC]()
+![Protótipo de Interface](./Sistema%20de%20games.drawio.png)
 
 ---
+
+## 🧱 Arquitetura
+O projeto segue o padrão MVC (Model-View-Controller), garantindo a separação de responsabilidades entre a interface, a lógica de negócio e o acesso aos dados.
 
 ## 🚀 Funcionalidades (CRUD)
 - **Create:** Cadastro de novos jogos (Título, Gênero, Plataforma, Preço).
@@ -18,11 +20,10 @@ O projeto segue o padrão MVC (Model-View-Controller), garantindo a separação 
 - **Delete:** Remoção de títulos da biblioteca.
 
 ## 📂 Estrutura de Pastas
-- `src/model/`: Representação das entidades (Game, Person).
-- `src/dao/`: Comunicação direta com o banco de dados (Data Access Object).
+- `src/model/`: Representação das entidades.
+- `src/dao/`: Comunicação direta com o banco de dados.
 - `src/controller/`: Regras de negócio e controle de fluxo.
-- `src/view/`: Interface de interação via Console (Scanner).
-- `src/config/`: Configurações de conexão com o banco.
+- `src/view/`: Interface de interação via Console.
 
 ## 🛠️ Tecnologias
 - **Linguagem:** Java
@@ -32,4 +33,4 @@ O projeto segue o padrão MVC (Model-View-Controller), garantindo a separação 
 ---
 
 ## 👨‍💻 Autor
-**Márcio** Estudante de Desenvolvimento de Sistemas - SENAC/RS 🚀
+**Márcio** - Estudante de Desenvolvimento de Sistemas - SENAC/RS 🚀
