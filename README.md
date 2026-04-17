@@ -7,7 +7,7 @@ Este projeto consiste em um sistema para gerenciamento de uma biblioteca de jogo
 O projeto segue o padrão MVC (Model-View-Controller), garantindo a separação de responsabilidades entre a interface, a lógica de negócio e o acesso aos dados.
 
 ### 📊 Diagrama de Fluxo (Protótipo)
-![Diagrama MVC](./Screenshot_20260416-175353.Google~2.png)
+![Diagrama MVC]()
 
 ---
 
